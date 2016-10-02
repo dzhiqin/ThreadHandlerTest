@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+	<Button
+	    android:id="@+id/btn_threadandhandler"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="thread+handler"/>
+	<Button 
+	    android:id="@+id/btn_threadandcall"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="thread+callback"/>
+	<Button 
+	    android:id="@+id/btn_looper"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="looper"/>
+    <TextView
+        android:id="@+id/tx_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+</LinearLayout>
